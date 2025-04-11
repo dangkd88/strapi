@@ -75,10 +75,7 @@ const Login = ({ children }: LoginProps) => {
             <Logo />
             <Box paddingTop={6} paddingBottom={1}>
               <Typography variant="alpha" tag="h1">
-                {formatMessage({
-                  id: 'Auth.form.welcome.title',
-                  defaultMessage: 'Welcome!',
-                })}
+                My own strapi - testing
               </Typography>
             </Box>
             <Box paddingBottom={7}>
